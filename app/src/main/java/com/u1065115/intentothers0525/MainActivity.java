@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
                  break;
 
              case  R.id.btnMap:
-                 intent.setData(Uri.parse("https://goo.gl/maps/gZA7BchBu3GxF4Kh7"));
+                 intent.setData(Uri.parse("geo:23.8584022,120,9102202"));
 
             case  R.id.btnWebSearch:
                 intent.setAction(Intent.ACTION_WEB_SEARCH);
